@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="pages">
+        <h2>숫자를 입력했을 때 2로 나눈 나머지가 0이면 짝수라고 출력</h2>
+    </div>
+
+    <script>
+        input = Number(prompt("숫자입력"));
+        
+        console.log(input);
+        console.log(input % 2 == 0 );
+        if(input % 2 == 0){
+            document.write("<h2>짝수</h2>")
+        }else{
+            document.write("<h2>홀수</h2>")    
+        }
+
+    </script>
+</body>
+
+</html>
